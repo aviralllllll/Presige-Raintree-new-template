@@ -8,9 +8,9 @@ import ToasterProvider from "@/components/ToasterProver";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Godrej Thanisandra",
+  title: "Prestige Raintree Park",
   description:
-    "Explore premium residential properties by Godrej in North Bangalore",
+    "Explore premium residential properties by Prestige in East Bangalore",
 };
 
 export default function RootLayout({
@@ -23,16 +23,17 @@ export default function RootLayout({
       <head>
         
 
-        <script
+<script
           // safe inline injection for GTM; will run only in the browser
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N2F9R3DQ');`,
+})(window,document,'script','dataLayer','GTM-5M5RDNVQ');`,
           }}
         />
+        
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-3J8R39GCCX"
@@ -43,7 +44,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 window.dataLayer = window.dataLayer || [];
 function gtag(){ window.dataLayer.push(arguments); }
 gtag('js', new Date());
-gtag('config', 'G-3J8R39GCCX');
+gtag('config', 'G-01FEXL28CR');
 `,
           }}
         />
@@ -53,14 +54,24 @@ gtag('config', 'G-3J8R39GCCX');
 
       </head>
       <body className={inter.className}>
-        <noscript>
+    
+<noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-N2F9R3DQ"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5M5RDNVQ"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
+          <ToasterProvider />
+        {children}
+        
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-01FEXL28CR"></script>
+
+<noscript/>
+
+
           <ToasterProvider />
         {children}
       </body>

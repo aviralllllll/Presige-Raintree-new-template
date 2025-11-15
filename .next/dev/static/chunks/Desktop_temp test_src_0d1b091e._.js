@@ -100,8 +100,8 @@ function EnquiryModal({ isOpen, onClose, title = "Download Brochure", subtitle =
             phoneNumber: phoneNumber.trim(),
             campaign: true,
             projectId: "",
-            projectName: "Godrej Thanisandra",
-            currentAgent: "Inzamam",
+            projectName: "Prestige Evergreen",
+            currentAgent: "Rishu",
             utmDetails: {
                 source: utmParams.utmSource || null,
                 medium: utmParams.utmMedium || null,
@@ -166,10 +166,10 @@ function EnquiryModal({ isOpen, onClose, title = "Download Brochure", subtitle =
                 onClick: (e)=>e.stopPropagation(),
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "sticky top-0 bg-[#F7F1F7] px-4 md:px-5 py-5.5 flex items-center justify-between border-b border-gray-200",
+                        className: "sticky top-0 bg-[#F9F4ED] px-4 md:px-5 py-5.5 flex items-center justify-between border-b border-gray-200",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                src: "/godrej-logo.png",
+                                src: "/logomain.svg",
                                 alt: "Godrej Logo",
                                 className: "h-6 md:h-9 w-auto"
                             }, void 0, false, {
@@ -494,7 +494,7 @@ function Navigation() {
                     className: "max-w-7xl mx-auto px-4 md:px-0",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex justify-between items-center h-16",
+                            className: "flex justify-between items-center h-auto py-1",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex gap-3 items-center",
@@ -530,9 +530,9 @@ function Navigation() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: "/godrej-logo.png",
+                                                src: "/logomain.svg",
                                                 alt: "Godrej Logo",
-                                                className: "w-[66px] h-8 lg:w-[75px] lg:h-9 object-contain"
+                                                className: "w-35 h-10 lg:w-35 lg:h-25 object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/temp test/src/components/navigation.tsx",
                                                 lineNumber: 66,
@@ -558,7 +558,7 @@ function Navigation() {
                                             children: "Overview"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/temp test/src/components/navigation.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 77,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -567,7 +567,7 @@ function Navigation() {
                                             children: "Configuration"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/temp test/src/components/navigation.tsx",
-                                            lineNumber: 79,
+                                            lineNumber: 80,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -576,7 +576,7 @@ function Navigation() {
                                             children: "Location"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/temp test/src/components/navigation.tsx",
-                                            lineNumber: 82,
+                                            lineNumber: 83,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -585,7 +585,7 @@ function Navigation() {
                                             children: "Gallery"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/temp test/src/components/navigation.tsx",
-                                            lineNumber: 85,
+                                            lineNumber: 86,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -594,13 +594,13 @@ function Navigation() {
                                             children: "Master Plan"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/temp test/src/components/navigation.tsx",
-                                            lineNumber: 88,
+                                            lineNumber: 89,
                                             columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/temp test/src/components/navigation.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 76,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -609,7 +609,7 @@ function Navigation() {
                                     children: "Enquire Now"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/temp test/src/components/navigation.tsx",
-                                    lineNumber: 94,
+                                    lineNumber: 95,
                                     columnNumber: 11
                                 }, this)
                             ]
@@ -630,26 +630,26 @@ function Navigation() {
                                                 setIsOpen(false);
                                                 setLastClickedIndex(index);
                                             },
-                                            className: `text-[#2B2928] font-[urbanist] text-[16px] font-medium py-3 px-2 hover:bg-[#F7F1F7] hover:text-primary transition-colors ${index === lastClickedIndex ? 'bg-[#F7F1F7]' : ''}`,
+                                            className: `text-[#2B2928] font-[urbanist] text-[16px] font-medium py-3 px-2 hover:bg-[#F9F4ED] hover:text-primary transition-colors ${index === lastClickedIndex ? 'bg-[#F9F4ED]' : ''}`,
                                             children: item.label
                                         }, item.href, false, {
                                             fileName: "[project]/Desktop/temp test/src/components/navigation.tsx",
-                                            lineNumber: 110,
+                                            lineNumber: 111,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/temp test/src/components/navigation.tsx",
-                                    lineNumber: 108,
+                                    lineNumber: 109,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/temp test/src/components/navigation.tsx",
-                                lineNumber: 107,
+                                lineNumber: 108,
                                 columnNumber: 11
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Desktop/temp test/src/components/navigation.tsx",
-                            lineNumber: 102,
+                            lineNumber: 103,
                             columnNumber: 9
                         }, this)
                     ]
@@ -672,7 +672,7 @@ function Navigation() {
                 submitEventTitle: "Contact_form_submit_navbar"
             }, void 0, false, {
                 fileName: "[project]/Desktop/temp test/src/components/navigation.tsx",
-                lineNumber: 128,
+                lineNumber: 129,
                 columnNumber: 5
             }, this)
         ]
@@ -2111,7 +2111,7 @@ function LocationMap() {
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "location",
-        className: "py-12 md:py-20 bg-[#F7F1F7]",
+        className: "py-12 md:py-20 bg-[#F9F4ED]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "w-full md:max-w-7xl px-4 md:px-0 md:mx-auto",
             children: [
@@ -2150,7 +2150,7 @@ function LocationMap() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
                                         title: "Location Map",
-                                        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.867477854614!2d77.633273!3d13.107580700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19cf246ea6b7%3A0x9d206694b5e047e0!2sGodrej%20Thanisandra!5e0!3m2!1sen!2sin!4v1763106191641!5m2!1sen!2sin",
+                                        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.289464249568!2d77.74288897604585!3d12.953320187360363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0de0408c1bcb%3A0xdd280dd220c9bac0!2sPrestige%20Raintree%20Park!5e0!3m2!1sen!2sin!4v1763208603000!5m2!1sen!2sin",
                                         width: "100%",
                                         height: "100%",
                                         style: {
@@ -2167,7 +2167,7 @@ function LocationMap() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         className: "absolute top-4 md:top-4 right-4 md:right-4 bg-primary text-white px-5 md:px-8 py-2 md:py-3 rounded-[4px] font-semibold font-['Urbanist'] text-sm md:text-[14px] transition-colors duration-300 shadow-lg cursor-pointer",
                                         onClick: ()=>{
-                                            window.open("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.867477854614!2d77.633273!3d13.107580700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19cf246ea6b7%3A0x9d206694b5e047e0!2sGodrej%20Thanisandra!5e0!3m2!1sen!2sin!4v1763106191641!5m2!1sen!2sin", "_blank");
+                                            window.open("https://maps.app.goo.gl/Dd83qd3jeCYTWWcF7", "_blank");
                                         },
                                         children: "Explore"
                                     }, void 0, false, {
@@ -3171,7 +3171,7 @@ function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-                className: "bg-[#222A28] text-white",
+                className: "bg-[#3A372E] text-white",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "border-b border-[#4E5553]",
@@ -3231,7 +3231,7 @@ function Footer() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-[#222A28]",
+                        className: "bg-[#3A372E",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "max-w-7xl mx-auto px-4 md:px-0 py-6 md:py-8",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3397,7 +3397,7 @@ function MasterPlan() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "master-plan",
-                className: "py-12 md:py-20 bg-[#F7F1F7]",
+                className: "py-12 md:py-20 bg-[#F9F4ED]",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: " mx-auto pl-4 md:pl-0 max-w-7xl",
                     children: [
@@ -3455,7 +3455,7 @@ function MasterPlan() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative w-full h-[151px] md:h-[534px] bg-[#1E341E] rounded-[4px] overflow-hidden shadow-lg",
+                            className: "relative w-full h-[151px] md:h-[534px] bg-[#3B372E] rounded-[4px] overflow-hidden shadow-lg",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 flex items-center overflow-hidden",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {

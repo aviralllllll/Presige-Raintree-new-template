@@ -7,7 +7,7 @@ export default function MasterPlan() {
   
   return (
     <>
-      <section id="master-plan" className="py-12 md:py-20 bg-[#F7F1F7]">
+      <section id="master-plan" className="py-12 md:py-20 bg-[#F9F4ED]">
         <div className=" mx-auto pl-4 md:pl-0 max-w-7xl">
           {/* Header with Download Button */}
           <div className="flex flex-col md:flex-row md:items-start  pr-4 md:pr-0 md:justify-between mb-8 md:mb-12 gap-4">
@@ -31,7 +31,7 @@ export default function MasterPlan() {
           </div>
 
           {/* Scrollable Brochure Container */}
-          <div className="relative w-full h-[151px] md:h-[534px] bg-[#1E341E] rounded-[4px] overflow-hidden shadow-lg">
+          <div className="relative w-full h-[151px] md:h-[534px] bg-[#3B372E] rounded-[4px] overflow-hidden shadow-lg">
             <div className="absolute inset-0 flex items-center overflow-hidden">
               {/* Scrollable Row */}
               <div

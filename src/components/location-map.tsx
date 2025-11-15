@@ -91,7 +91,7 @@ export default function LocationMap() {
   }
 
   return (
-    <section id="location" className="py-12 md:py-20 bg-[#F7F1F7]">
+    <section id="location" className="py-12 md:py-20 bg-[#F9F4ED]">
       <div className="w-full md:max-w-7xl px-4 md:px-0 md:mx-auto">
         <div className="mb-8 md:mb-12">
           <h2 className="text-2xl md:text-4xl lg:text-[44px] font-extrabold mb-3 md:mb-4 text-[#221628] font-['Urbanist']">
@@ -114,7 +114,7 @@ export default function LocationMap() {
                
               <iframe
                 title="Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.867477854614!2d77.633273!3d13.107580700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19cf246ea6b7%3A0x9d206694b5e047e0!2sGodrej%20Thanisandra!5e0!3m2!1sen!2sin!4v1763106191641!5m2!1sen!2sin"
+                src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.289464249568!2d77.74288897604585!3d12.953320187360363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae0de0408c1bcb%3A0xdd280dd220c9bac0!2sPrestige%20Raintree%20Park!5e0!3m2!1sen!2sin!4v1763208603000!5m2!1sen!2sin" 
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -125,7 +125,7 @@ export default function LocationMap() {
               {/* Explore Button on Map */}
               <button className="absolute top-4 md:top-4 right-4 md:right-4 bg-primary text-white px-5 md:px-8 py-2 md:py-3 rounded-[4px] font-semibold font-['Urbanist'] text-sm md:text-[14px] transition-colors duration-300 shadow-lg cursor-pointer"
                 onClick={() => {
-                  window.open("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.867477854614!2d77.633273!3d13.107580700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19cf246ea6b7%3A0x9d206694b5e047e0!2sGodrej%20Thanisandra!5e0!3m2!1sen!2sin!4v1763106191641!5m2!1sen!2sin", "_blank")
+                  window.open("https://maps.app.goo.gl/Dd83qd3jeCYTWWcF7", "_blank")
                 }}
               >
                 Explore

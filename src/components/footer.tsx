@@ -8,7 +8,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="bg-[#222A28] text-white">
+      <footer className="bg-[#3A372E] text-white">
         {/* Disclaimer Section */}
         <div className="border-b border-[#4E5553]">
           <div className="max-w-7xl mx-auto px-4 md:px-0 py-12 md:py-16">
@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright Section */}
-        <div className="bg-[#222A28]">
+        <div className="bg-[#3A372E">
           <div className="max-w-7xl mx-auto px-4 md:px-0 py-6 md:py-8">
             <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center">
               <p className="text-[#A0A0A0] text-sm font-['Urbanist'] font-medium">

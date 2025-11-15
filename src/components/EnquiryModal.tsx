@@ -89,8 +89,8 @@ export default function EnquiryModal({
       phoneNumber: phoneNumber.trim(),
       campaign: true,
       projectId: "",
-      projectName: "Godrej Thanisandra",
-      currentAgent: "Inzamam",
+      projectName: "Prestige Evergreen",
+      currentAgent: "Rishu",
       utmDetails: {
         source: utmParams.utmSource || null,
         medium: utmParams.utmMedium || null,
@@ -170,9 +170,9 @@ export default function EnquiryModal({
           onClick={(e) => e.stopPropagation()}
         >
           {/* Header */}
-          <div className="sticky top-0 bg-[#F7F1F7] px-4 md:px-5 py-5.5 flex items-center justify-between border-b border-gray-200">
+          <div className="sticky top-0 bg-[#F9F4ED] px-4 md:px-5 py-5.5 flex items-center justify-between border-b border-gray-200">
             <img
-              src="/godrej-logo.png"
+              src="/logomain.svg"
               alt="Godrej Logo"
               className="h-6 md:h-9 w-auto"
             />

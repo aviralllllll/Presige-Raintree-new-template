@@ -43,7 +43,7 @@ export default function Navigation() {
     <>
     <nav ref={menuRef} className="sticky top-0 z-50 bg-white border-b border-neutral-200">
       <div className="max-w-7xl mx-auto px-4 md:px-0">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-auto py-1">
           <div className="flex gap-3 items-center">
             {/* Mobile Menu Button */}
             <button 
@@ -64,9 +64,10 @@ export default function Navigation() {
             {/* Logo */}
             <div>
               <img
-                src={"/godrej-logo.png"}
+                src={"/logomain.svg"}
                 alt="Godrej Logo"
-                className="w-[66px] h-8 lg:w-[75px] lg:h-9 object-contain"
+                className="w-35 h-10 lg:w-35 lg:h-25
+                 object-contain"
               />
             </div>
           </div>
@@ -113,8 +114,8 @@ export default function Navigation() {
                   onClick={() => {setIsOpen(false)
                   setLastClickedIndex(index)
                   }}
-                  className={`text-[#2B2928] font-[urbanist] text-[16px] font-medium py-3 px-2 hover:bg-[#F7F1F7] hover:text-primary transition-colors ${
-                    index === lastClickedIndex ? 'bg-[#F7F1F7]' : ''
+                  className={`text-[#2B2928] font-[urbanist] text-[16px] font-medium py-3 px-2 hover:bg-[#F9F4ED] hover:text-primary transition-colors ${
+                    index === lastClickedIndex ? 'bg-[#F9F4ED]' : ''
                   }`}
                 >
                   {item.label}
