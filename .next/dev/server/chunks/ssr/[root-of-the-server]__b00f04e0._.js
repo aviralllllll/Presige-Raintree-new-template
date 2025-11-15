@@ -368,7 +368,7 @@ function EnquiryModal({ isOpen, onClose, title = "Download Brochure", subtitle =
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         type: "submit",
-                                        className: "w-full bg-primary hover:bg-[#9a1751] text-white py-3.5 px-5 rounded-[8px] font-bold text-base font-['Urbanist'] transition-colors duration-300 shadow-lg mt-9",
+                                        className: "w-full bg-primary  text-white py-3.5 px-5 rounded-[8px] font-bold text-base font-['Urbanist'] transition-colors duration-300 shadow-lg mt-9",
                                         disabled: loading,
                                         children: loading ? "Submitting..." : "Enquire"
                                     }, void 0, false, {
@@ -930,6 +930,29 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$nod
 function Introduction() {
     const [isModalOpen, setIsModalOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [title, setTitle] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("Download Brochure");
+    const cameraIcon = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+        width: "18",
+        height: "18",
+        viewBox: "0 0 18 18",
+        fill: "none",
+        stroke: "#BC9043",
+        xmlns: "http://www.w3.org/2000/svg",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+            d: "M3 6.375H4.3125M4.3125 6.375C4.6606 6.375 4.99444 6.51328 5.24058 6.75942C5.48672 7.00556 5.625 7.3394 5.625 7.6875C5.625 8.0356 5.48672 8.36944 5.24058 8.61558C4.99444 8.86172 4.6606 9 4.3125 9H2.25M4.3125 6.375C4.6606 6.375 4.99444 6.23672 5.24058 5.99058C5.48672 5.74444 5.625 5.4106 5.625 5.0625C5.625 4.7144 5.48672 4.38056 5.24058 4.13442C4.99444 3.88828 4.6606 3.75 4.3125 3.75H2.25M15.75 11.25C15.75 13.7355 12.7275 15.75 9 15.75C5.2725 15.75 2.25 13.7355 2.25 11.25M10.5 3.75H9.75C9.15326 3.75 8.58097 3.98705 8.15901 4.40901C7.73705 4.83097 7.5 5.40326 7.5 6V7.5M7.5 7.5C7.5 7.89782 7.65803 8.27936 7.93934 8.56066C8.22064 8.84196 8.60217 9 9 9H9.375C9.77282 9 10.1544 8.84196 10.4357 8.56066C10.717 8.27936 10.875 7.89782 10.875 7.5V7.125C10.875 6.72718 10.717 6.34564 10.4357 6.06434C10.1544 5.78304 9.77282 5.625 9.375 5.625H9C8.60217 5.625 8.22064 5.78304 7.93934 6.06434C7.65803 6.34564 7.5 6.72718 7.5 7.125V7.5ZM12.75 6.375V5.25C12.75 4.85218 12.908 4.47064 13.1893 4.18934C13.4706 3.90804 13.8522 3.75 14.25 3.75H14.625C15.0228 3.75 15.4044 3.90804 15.6857 4.18934C15.967 4.47064 16.125 4.85218 16.125 5.25V7.5C16.125 7.89782 15.967 8.27936 15.6857 8.56066C15.4044 8.84196 15.0228 9 14.625 9H14.25C13.8522 9 13.4706 8.84196 13.1893 8.56066C12.908 8.27936 12.75 7.89782 12.75 7.5V6.375Z",
+            stroke: "stroke='#BC9043'",
+            "stroke-width": "1.5625",
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round"
+        }, void 0, false, {
+            fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
+            lineNumber: 12,
+            columnNumber: 1
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
+        lineNumber: 11,
+        columnNumber: 5
+    }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -950,12 +973,12 @@ function Introduction() {
                                             className: "w-full h-full object-cover rounded-[4px] shadow-lg hover:scale-105 transition-transform duration-300"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                            lineNumber: 18,
+                                            lineNumber: 25,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                        lineNumber: 17,
+                                        lineNumber: 24,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -966,18 +989,18 @@ function Introduction() {
                                             className: "w-full h-full object-cover rounded-[4px] shadow-xl  hover:scale-105 transition-transform duration-300"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                            lineNumber: 27,
+                                            lineNumber: 34,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                        lineNumber: 26,
+                                        lineNumber: 33,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                lineNumber: 15,
+                                lineNumber: 22,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -987,7 +1010,7 @@ function Introduction() {
                                         children: "Launching Soon - Prestige Raintree Phase 2"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                        lineNumber: 37,
+                                        lineNumber: 44,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -995,7 +1018,7 @@ function Introduction() {
                                         children: "For nearly four decades, Prestige Group has been synonymous with excellence, innovation, and trust in creating landmark developments across South India. We bring this unwavering commitment to crafting homes that redefine luxury living. Prestige Raintree Park is a new ultra-luxury, integrated residential project located in the prime micro-market of Whitefield, East Bangalore."
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                        lineNumber: 41,
+                                        lineNumber: 48,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1003,7 +1026,7 @@ function Introduction() {
                                         children: "Spanning an expansive 24+ acres (for the New Launch Residential Phase), this development is a fusion of residential luxury and urban convenience. The residential towers are meticulously planned, designed to offer an impressive 75-80% open landscaped spaces and a focus on natural light and ventilation across all towers. "
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                        lineNumber: 46,
+                                        lineNumber: 53,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1022,14 +1045,14 @@ function Introduction() {
                                                         className: "w-3.5 h-3.5 md:w-4.5 md:h-4.5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                                        lineNumber: 57,
+                                                        lineNumber: 64,
                                                         columnNumber: 17
                                                     }, this),
                                                     "Download Brochure"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                                lineNumber: 53,
+                                                lineNumber: 60,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1039,33 +1062,25 @@ function Introduction() {
                                                     setTitle("Virtual Tour");
                                                 },
                                                 children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                        src: "/camera.svg",
-                                                        alt: "Virtual Tour Icon",
-                                                        className: "w-3.5 h-3.5 md:w-4.5 md:h-4.5"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                                        lineNumber: 64,
-                                                        columnNumber: 17
-                                                    }, this),
+                                                    cameraIcon,
                                                     "Virtual Tour"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                                lineNumber: 60,
+                                                lineNumber: 67,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                        lineNumber: 52,
+                                        lineNumber: 59,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "border mb-8"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                        lineNumber: 69,
+                                        lineNumber: 77,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1079,62 +1094,12 @@ function Introduction() {
                                                         children: "40+"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                                        lineNumber: 73,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-md text-[#575556]",
-                                                        children: "Years of Trust"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                                        lineNumber: 74,
-                                                        columnNumber: 17
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                                lineNumber: 72,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "text-center",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-lg md:text-[42px] font-bold text-gray-900 mb-2",
-                                                        children: "280+"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                                        lineNumber: 77,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-md text-[#575556]",
-                                                        children: "Projects Delivered"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                                        lineNumber: 78,
-                                                        columnNumber: 17
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                                lineNumber: 76,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "text-center",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-lg md:text-[42px] font-bold text-gray-900 mb-2",
-                                                        children: "175M+"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
                                                         lineNumber: 81,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "text-md text-[#575556]",
-                                                        children: "Sqft Developed"
+                                                        children: "Years of Trust"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
                                                         lineNumber: 82,
@@ -1145,33 +1110,83 @@ function Introduction() {
                                                 fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
                                                 lineNumber: 80,
                                                 columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "text-center",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-lg md:text-[42px] font-bold text-gray-900 mb-2",
+                                                        children: "280+"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
+                                                        lineNumber: 85,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-md text-[#575556]",
+                                                        children: "Projects Delivered"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
+                                                        lineNumber: 86,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
+                                                lineNumber: 84,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "text-center",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-lg md:text-[42px] font-bold text-gray-900 mb-2",
+                                                        children: "175M+"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
+                                                        lineNumber: 89,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-md text-[#575556]",
+                                                        children: "Sqft Developed"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
+                                                        lineNumber: 90,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
+                                                lineNumber: 88,
+                                                columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 79,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                                lineNumber: 36,
+                                lineNumber: 43,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                        lineNumber: 13,
+                        lineNumber: 20,
                         columnNumber: 9
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                    lineNumber: 12,
+                    lineNumber: 19,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                lineNumber: 11,
+                lineNumber: 18,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$src$2f$components$2f$EnquiryModal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1183,7 +1198,7 @@ function Introduction() {
                 submitEventTitle: title === "Download Brochure" ? "Contact_form_submit_overview_1" : "Contact_form_submit_overview_2"
             }, void 0, false, {
                 fileName: "[project]/Desktop/temp test/src/components/introduction.tsx",
-                lineNumber: 89,
+                lineNumber: 97,
                 columnNumber: 5
             }, this)
         ]
@@ -1582,7 +1597,7 @@ function PricingPlots() {
                                                             });
                                                         }
                                                     },
-                                                    className: `h-2 rounded-full transition-all duration-300 ${index === activeIndex ? "w-8 bg-[#B91C61]" : "w-2 bg-gray-300"}`,
+                                                    className: `h-2 rounded-full transition-all duration-300 ${index === activeIndex ? "w-8 bg-primary" : "w-2 bg-gray-300"}`,
                                                     "aria-label": `Go to plot ${index + 1}`
                                                 }, index, false, {
                                                     fileName: "[project]/Desktop/temp test/src/components/pricing-plots.tsx",
@@ -1731,7 +1746,7 @@ function LocationMap() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M1.61902 17.8096H17.8095",
-                            stroke: isActive ? "white" : "#9F0E52",
+                            stroke: isActive ? "white" : "#BC9043",
                             strokeWidth: "1.5",
                             strokeMiterlimit: "10",
                             strokeLinecap: "round",
@@ -1743,7 +1758,7 @@ function LocationMap() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M13.7619 1.61914H5.66668C3.23811 1.61914 2.42859 3.06819 2.42859 4.85724V17.8096H17V4.85724C17 3.06819 16.1905 1.61914 13.7619 1.61914Z",
-                            stroke: isActive ? "white" : "#9F0E52",
+                            stroke: isActive ? "white" : "#BC9043",
                             strokeWidth: "1.5",
                             strokeMiterlimit: "10",
                             strokeLinecap: "round",
@@ -1755,7 +1770,7 @@ function LocationMap() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M11.3819 12.1428H8.03853C7.62567 12.1428 7.27759 12.4828 7.27759 12.9038V17.8095H12.1347V12.9038C12.1428 12.4828 11.8028 12.1428 11.3819 12.1428Z",
-                            stroke: isActive ? "white" : "#9F0E52",
+                            stroke: isActive ? "white" : "#BC9043",
                             strokeWidth: "1.5",
                             strokeMiterlimit: "10",
                             strokeLinecap: "round",
@@ -1767,7 +1782,7 @@ function LocationMap() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M9.71423 4.85718V8.9048",
-                            stroke: isActive ? "white" : "#9F0E52",
+                            stroke: isActive ? "white" : "#BC9043",
                             strokeWidth: "1.5",
                             strokeMiterlimit: "10",
                             strokeLinecap: "round",
@@ -1779,7 +1794,7 @@ function LocationMap() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M7.69043 6.8811H11.738",
-                            stroke: isActive ? "white" : "#9F0E52",
+                            stroke: isActive ? "white" : "#BC9043",
                             strokeWidth: "1.5",
                             strokeMiterlimit: "10",
                             strokeLinecap: "round",
@@ -1808,7 +1823,7 @@ function LocationMap() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M15.8125 15.0666L11 17.7736L6.1875 15.0666V12.2065L4.8125 11.4426V15.8707L11 19.3512L17.1875 15.8707V11.4426L15.8125 12.2065V15.0666Z",
-                            fill: isActive ? "white" : "#9F0E52"
+                            fill: isActive ? "white" : "#BC9043"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/temp test/src/components/location-map.tsx",
                             lineNumber: 27,
@@ -1816,7 +1831,7 @@ function LocationMap() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M11 1.97559L1.375 6.96632V8.15801L11 13.5051L19.25 8.92191V12.7188H20.625V6.96632L11 1.97559ZM17.875 8.11286L16.5 8.87671L11 11.9324L5.5 8.87671L4.125 8.11286L3.172 7.58339L11 3.52444L18.828 7.58339L17.875 8.11286Z",
-                            fill: isActive ? "white" : "#9F0E52"
+                            fill: isActive ? "white" : "#BC9043"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/temp test/src/components/location-map.tsx",
                             lineNumber: 28,
@@ -1841,7 +1856,7 @@ function LocationMap() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M4.58333 2.5L2.5 17.5",
-                            stroke: isActive ? "white" : "#9F0E52",
+                            stroke: isActive ? "white" : "#BC9043",
                             strokeWidth: "2",
                             strokeLinecap: "round",
                             strokeLinejoin: "round"
@@ -1852,7 +1867,7 @@ function LocationMap() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M15.418 2.5L17.4865 17.4813",
-                            stroke: isActive ? "white" : "#9F0E52",
+                            stroke: isActive ? "white" : "#BC9043",
                             strokeWidth: "2",
                             strokeLinecap: "round",
                             strokeLinejoin: "round"
@@ -1863,7 +1878,7 @@ function LocationMap() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M10 2.5V5",
-                            stroke: isActive ? "white" : "#9F0E52",
+                            stroke: isActive ? "white" : "#BC9043",
                             strokeWidth: "2",
                             strokeLinecap: "round",
                             strokeLinejoin: "round"
@@ -1874,7 +1889,7 @@ function LocationMap() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M10 14.5833V17.4999",
-                            stroke: isActive ? "white" : "#9F0E52",
+                            stroke: isActive ? "white" : "#BC9043",
                             strokeWidth: "2",
                             strokeLinecap: "round",
                             strokeLinejoin: "round"
@@ -1885,7 +1900,7 @@ function LocationMap() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M10 8.33325V11.2499",
-                            stroke: isActive ? "white" : "#9F0E52",
+                            stroke: isActive ? "white" : "#BC9043",
                             strokeWidth: "2",
                             strokeLinecap: "round",
                             strokeLinejoin: "round"
@@ -1913,7 +1928,7 @@ function LocationMap() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M5.01664 10.8501C5.45867 10.8501 5.88259 10.6745 6.19515 10.3619C6.50771 10.0494 6.68331 9.62546 6.68331 9.18343C6.68331 8.7414 6.50771 8.31748 6.19515 8.00492C5.88259 7.69236 5.45867 7.51676 5.01664 7.51676C4.57461 7.51676 4.15069 7.69236 3.83813 8.00492C3.52557 8.31748 3.34998 8.7414 3.34998 9.18343C3.34998 9.62546 3.52557 10.0494 3.83813 10.3619C4.15069 10.6745 4.57461 10.8501 5.01664 10.8501ZM13.35 10.8501C13.792 10.8501 14.2159 10.6745 14.5285 10.3619C14.841 10.0494 15.0166 9.62546 15.0166 9.18343C15.0166 8.7414 14.841 8.31748 14.5285 8.00492C14.2159 7.69236 13.792 7.51676 13.35 7.51676C12.9079 7.51676 12.484 7.69236 12.1715 8.00492C11.8589 8.31748 11.6833 8.7414 11.6833 9.18343C11.6833 9.62546 11.8589 10.0494 12.1715 10.3619C12.484 10.6745 12.9079 10.8501 13.35 10.8501ZM9.18331 6.68343C9.62534 6.68343 10.0493 6.50784 10.3618 6.19528C10.6744 5.88271 10.85 5.45879 10.85 5.01676C10.85 4.57474 10.6744 4.15081 10.3618 3.83825C10.0493 3.52569 9.62534 3.3501 9.18331 3.3501C8.74128 3.3501 8.31736 3.52569 8.0048 3.83825C7.69224 4.15081 7.51664 4.57474 7.51664 5.01676C7.51664 5.45879 7.69224 5.88271 8.0048 6.19528C8.31736 6.50784 8.74128 6.68343 9.18331 6.68343ZM9.18331 15.0168C9.62534 15.0168 10.0493 14.8412 10.3618 14.5286C10.6744 14.216 10.85 13.7921 10.85 13.3501C10.85 12.9081 10.6744 12.4841 10.3618 12.1716C10.0493 11.859 9.62534 11.6834 9.18331 11.6834C8.74128 11.6834 8.31736 11.859 8.0048 12.1716C7.69224 12.4841 7.51664 12.9081 7.51664 13.3501C7.51664 13.7921 7.69224 14.216 8.0048 14.5286C8.31736 14.8412 8.74128 15.0168 9.18331 15.0168Z",
-                            stroke: isActive ? "white" : "#9F0E52",
+                            stroke: isActive ? "white" : "#BC9043",
                             strokeWidth: "1.7",
                             strokeLinecap: "round",
                             strokeLinejoin: "round"
@@ -1924,7 +1939,7 @@ function LocationMap() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                             d: "M0.849976 9.18343C0.849976 13.7859 4.58081 17.5168 9.18331 17.5168C13.7858 17.5168 17.5166 13.7859 17.5166 9.18343C17.5166 4.58093 13.7858 0.850098 9.18331 0.850098C4.58081 0.850098 0.849976 4.58093 0.849976 9.18343ZM0.849976 9.18343V17.5168",
-                            stroke: isActive ? "white" : "#9F0E52",
+                            stroke: isActive ? "white" : "#BC9043",
                             strokeWidth: "1.7",
                             strokeLinecap: "round",
                             strokeLinejoin: "round"
@@ -2080,7 +2095,7 @@ function LocationMap() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "absolute top-4 md:top-4 right-4 md:right-4 bg-primary hover:bg-[#9a1751] text-white px-5 md:px-8 py-2 md:py-3 rounded-[4px] font-semibold font-['Urbanist'] text-sm md:text-[14px] transition-colors duration-300 shadow-lg cursor-pointer",
+                                        className: "absolute top-4 md:top-4 right-4 md:right-4 bg-primary text-white px-5 md:px-8 py-2 md:py-3 rounded-[4px] font-semibold font-['Urbanist'] text-sm md:text-[14px] transition-colors duration-300 shadow-lg cursor-pointer",
                                         onClick: ()=>{
                                             window.open("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.867477854614!2d77.633273!3d13.107580700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19cf246ea6b7%3A0x9d206694b5e047e0!2sGodrej%20Thanisandra!5e0!3m2!1sen!2sin!4v1763106191641!5m2!1sen!2sin", "_blank");
                                         },
@@ -2403,7 +2418,41 @@ function Amenities() {
     const Desktopamenities = [
         {
             name: "Lush Greenery",
-            icon: '/lush-greenery.svg',
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                width: "51",
+                height: "51",
+                viewBox: "0 0 51 51",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M33.4427 44.1224V38.7891H49.4498L40.1123 26.7891H48.1159L33.4427 6.78906L28.1069 12.1224",
+                        stroke: "#BC9043",
+                        "stroke-width": "2.9",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                        lineNumber: 6,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M20.1379 38.7835H38.8259L26.8122 21.4502H34.8213L20.1379 1.4502L5.45457 21.4502H13.4637L1.45001 38.7835H20.1379ZM20.1379 38.7835V49.4502",
+                        stroke: "#BC9043",
+                        "stroke-width": "2.9",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                        lineNumber: 7,
+                        columnNumber: 1
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                lineNumber: 5,
+                columnNumber: 14
+            }, this),
             colored: false
         },
         {
@@ -2413,7 +2462,25 @@ function Amenities() {
         },
         {
             name: "Solar Street Lights",
-            icon: '/solar.svg',
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                width: "48",
+                height: "48",
+                viewBox: "0 0 48 48",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M5.6554 2.49366C5.28493 2.49366 4.97535 2.37701 4.72663 2.14372C4.47792 1.91042 4.35269 1.61921 4.35095 1.27008C4.35095 0.922581 4.47618 0.631368 4.72663 0.39644C4.97535 0.163144 5.28493 0.0464962 5.6554 0.0464962H10.1218C10.4923 0.0464962 10.8027 0.163144 11.0532 0.39644C11.3019 0.631368 11.4262 0.922581 11.4262 1.27008C11.4262 1.61758 11.3019 1.90879 11.0532 2.14372C10.8045 2.37864 10.494 2.49529 10.1218 2.49366H5.6554ZM7.62249 35.5304L6.73026 39.764C6.62938 40.2371 6.73808 40.6531 7.05637 41.012C7.37465 41.3742 7.78424 41.5553 8.28515 41.5553H24.7211V35.5304H7.62249ZM9.4748 12.7228L12.655 9.74216C12.8985 9.51376 13.1951 9.39956 13.5447 9.39956C13.8942 9.39956 14.196 9.51376 14.4499 9.74216C14.7387 9.98035 14.8743 10.2707 14.8569 10.6133C14.8395 10.956 14.7039 11.2472 14.4499 11.487L11.2697 14.4725C11.0262 14.7009 10.7297 14.8151 10.3801 14.8151C10.0305 14.8151 9.72873 14.7009 9.4748 14.4725C9.18608 14.2327 9.05042 13.9415 9.06782 13.5989C9.08521 13.2547 9.22087 12.961 9.4748 12.7228ZM8.16514 33.0832H24.7211V26.9164H10.7636C10.3949 26.9164 10.0601 27.0346 9.75917 27.2712C9.45828 27.5077 9.27479 27.7981 9.20869 28.1424L8.16514 33.0832ZM26.0256 9.88409C23.0862 9.88409 20.5956 8.92562 18.5537 7.00868C16.5118 5.09336 15.4909 2.75714 15.4909 0H18.0998C18.0998 2.0703 18.8685 3.82736 20.406 5.27119C21.9453 6.71339 23.8184 7.43448 26.0256 7.43448C28.2327 7.43448 30.1059 6.71339 31.6451 5.27119C33.1826 3.82736 33.9513 2.0703 33.9513 0H36.5602C36.5602 2.75714 35.5393 5.09336 33.4974 7.00868C31.4555 8.92399 28.9649 9.88246 26.0256 9.88409ZM24.7211 18.8701V14.683C24.7211 14.3339 24.8455 14.0426 25.0942 13.8093C25.3446 13.576 25.6551 13.4594 26.0256 13.4594C26.396 13.4594 26.7065 13.576 26.9569 13.8093C27.2056 14.0426 27.33 14.3339 27.33 14.683V18.8701C27.33 19.2192 27.2056 19.5104 26.9569 19.7437C26.7065 19.977 26.396 20.0937 26.0256 20.0937C25.6551 20.0937 25.3446 19.977 25.0942 19.7437C24.8455 19.5104 24.7211 19.2192 24.7211 18.8701ZM27.33 41.5553H43.7138C44.2182 41.5553 44.6286 41.3742 44.9452 41.012C45.2635 40.6531 45.3722 40.2371 45.2713 39.764L44.3791 35.5304H27.33V41.5553ZM27.33 33.0832H43.8364L42.7929 28.1399C42.725 27.7973 42.5407 27.5077 42.2398 27.2712C41.9389 27.0346 41.6049 26.9172 41.238 26.9188H27.33V33.0832ZM40.831 14.4554L37.6012 11.4258C37.3577 11.1974 37.2411 10.9192 37.2516 10.5913C37.2638 10.2634 37.3968 9.98035 37.6507 9.74216C37.8942 9.51376 38.1847 9.39956 38.5221 9.39956C38.8613 9.39956 39.1526 9.51376 39.3961 9.74216L42.6911 12.7253C42.9798 12.9537 43.1242 13.2318 43.1242 13.5597C43.1242 13.8877 42.9798 14.1862 42.6911 14.4554C42.4041 14.7262 42.0945 14.8616 41.7623 14.8616C41.4301 14.8616 41.1197 14.7262 40.831 14.4554ZM46.3957 2.49366H40.6249V0.0464962H46.3957C46.7662 0.0464962 47.0758 0.163144 47.3245 0.39644C47.5749 0.631368 47.7002 0.922581 47.7002 1.27008C47.7002 1.61758 47.5749 1.90879 47.3245 2.14372C47.074 2.37864 46.7644 2.49529 46.3957 2.49366ZM4.08485 39.2574L6.56329 27.6334C6.78069 26.7116 7.2703 25.9538 8.03209 25.36C8.79214 24.7677 9.68612 24.4716 10.714 24.4716H41.2875C42.3137 24.4716 43.2077 24.7677 43.9695 25.36C44.7313 25.9522 45.22 26.7108 45.4357 27.6358L47.9141 39.2598C48.1628 40.4948 47.8715 41.5936 47.0401 42.5562C46.2088 43.5187 45.1174 44 43.766 44H8.23297C6.88331 44 5.7928 43.5187 4.96143 42.5562C4.13007 41.5936 3.83787 40.494 4.08485 39.2574Z",
+                    fill: "#BC9043"
+                }, void 0, false, {
+                    fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                    lineNumber: 20,
+                    columnNumber: 1
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                lineNumber: 19,
+                columnNumber: 14
+            }, this),
             colored: false
         },
         {
@@ -2428,7 +2495,59 @@ function Amenities() {
         },
         {
             name: "Swimming Pools",
-            icon: '/pool.svg',
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                width: "48",
+                height: "48",
+                viewBox: "0 0 48 48",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
+                        "clip-path": "url(#clip0_1_859)",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                            d: "M1.49902 45.6275C3.63246 46.4872 5.96777 46.7168 8.22777 46.2889C10.4878 45.861 12.5775 44.7936 14.249 43.2135C16.4777 45.3234 19.43 46.4993 22.499 46.4993C25.568 46.4993 28.5204 45.3234 30.749 43.2135C32.8532 45.2053 35.607 46.3685 38.502 46.4883C41.3969 46.6082 44.2374 45.6766 46.499 43.8655M34.499 37.4995V7.49951C34.499 5.90821 35.1312 4.38209 36.2564 3.25687C37.3816 2.13165 38.9077 1.49951 40.499 1.49951C42.0903 1.49951 43.6165 2.13165 44.7417 3.25687C45.8669 4.38209 46.499 5.90821 46.499 7.49951M16.499 37.4995V7.49951C16.499 5.90821 17.1312 4.38209 18.2564 3.25687C19.3816 2.13165 20.9077 1.49951 22.499 1.49951C24.0903 1.49951 25.6164 2.13165 26.7417 3.25687C27.8669 4.38209 28.499 5.90821 28.499 7.49951M16.499 22.4995H34.499M16.499 31.4995H34.499M16.499 13.4995H34.499",
+                            stroke: "#BC9043",
+                            "stroke-width": "2.5",
+                            "stroke-linecap": "round",
+                            "stroke-linejoin": "round"
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                            lineNumber: 39,
+                            columnNumber: 1
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                        lineNumber: 38,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("clipPath", {
+                            id: "clip0_1_859",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                width: "48",
+                                height: "48",
+                                fill: "white"
+                            }, void 0, false, {
+                                fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                                lineNumber: 43,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                            lineNumber: 42,
+                            columnNumber: 1
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                        lineNumber: 41,
+                        columnNumber: 1
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                lineNumber: 37,
+                columnNumber: 14
+            }, this),
             colored: false
         },
         {
@@ -2438,14 +2557,66 @@ function Amenities() {
         },
         {
             name: "Outdoor Courts",
-            icon: '/court.svg',
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                width: "48",
+                height: "48",
+                viewBox: "0 0 48 48",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M11.3277 5.15625L8.21332 18.6562H9.94957L12.6777 6.84375H14.3839L12.4527 18.6562H14.1683L15.1152 12.8437H23.1589V18.6562H24.8464V12.8437H32.8902L33.8371 18.6562H35.5527L33.6214 6.84375H35.3277L38.0558 18.6562H39.7902L36.6777 5.15625H11.3277ZM16.0996 6.84375H31.9058L32.6183 11.1562H15.3871L16.0996 6.84375ZM6.84645 20.3437V23.1562H41.1589V20.3437H6.84645ZM6.78645 24.8437L1.94238 45.8437H46.0621L41.2152 24.8437H39.4808L43.9433 44.1562H39.7246L36.5652 24.8437H34.8496L36.1808 33H24.8464V24.8437H23.1589V33H11.8246L13.1558 24.8437H11.4402L8.28551 44.1562H4.06301L8.52176 24.8437H6.78645ZM11.5433 34.6875H36.4621L38.0089 44.1562H9.99644L11.5433 34.6875Z",
+                    fill: "#BC9043"
+                }, void 0, false, {
+                    fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                    lineNumber: 58,
+                    columnNumber: 1
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                lineNumber: 57,
+                columnNumber: 14
+            }, this),
             colored: false
         }
     ];
     const Mobileamenities = [
         {
             name: "Lush Greenery",
-            icon: '/lush-greenery.svg',
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                width: "51",
+                height: "51",
+                viewBox: "0 0 51 51",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M33.4427 44.1224V38.7891H49.4498L40.1123 26.7891H48.1159L33.4427 6.78906L28.1069 12.1224",
+                        stroke: "#BC9043",
+                        "stroke-width": "2.9",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                        lineNumber: 68,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M20.1379 38.7835H38.8259L26.8122 21.4502H34.8213L20.1379 1.4502L5.45457 21.4502H13.4637L1.45001 38.7835H20.1379ZM20.1379 38.7835V49.4502",
+                        stroke: "#BC9043",
+                        "stroke-width": "2.9",
+                        "stroke-linecap": "round",
+                        "stroke-linejoin": "round"
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                        lineNumber: 69,
+                        columnNumber: 1
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                lineNumber: 67,
+                columnNumber: 14
+            }, this),
             colored: false
         },
         {
@@ -2460,12 +2631,82 @@ function Amenities() {
         },
         {
             name: "Solar Street Lights",
-            icon: '/solar.svg',
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                width: "48",
+                height: "48",
+                viewBox: "0 0 48 48",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M5.6554 2.49366C5.28493 2.49366 4.97535 2.37701 4.72663 2.14372C4.47792 1.91042 4.35269 1.61921 4.35095 1.27008C4.35095 0.922581 4.47618 0.631368 4.72663 0.39644C4.97535 0.163144 5.28493 0.0464962 5.6554 0.0464962H10.1218C10.4923 0.0464962 10.8027 0.163144 11.0532 0.39644C11.3019 0.631368 11.4262 0.922581 11.4262 1.27008C11.4262 1.61758 11.3019 1.90879 11.0532 2.14372C10.8045 2.37864 10.494 2.49529 10.1218 2.49366H5.6554ZM7.62249 35.5304L6.73026 39.764C6.62938 40.2371 6.73808 40.6531 7.05637 41.012C7.37465 41.3742 7.78424 41.5553 8.28515 41.5553H24.7211V35.5304H7.62249ZM9.4748 12.7228L12.655 9.74216C12.8985 9.51376 13.1951 9.39956 13.5447 9.39956C13.8942 9.39956 14.196 9.51376 14.4499 9.74216C14.7387 9.98035 14.8743 10.2707 14.8569 10.6133C14.8395 10.956 14.7039 11.2472 14.4499 11.487L11.2697 14.4725C11.0262 14.7009 10.7297 14.8151 10.3801 14.8151C10.0305 14.8151 9.72873 14.7009 9.4748 14.4725C9.18608 14.2327 9.05042 13.9415 9.06782 13.5989C9.08521 13.2547 9.22087 12.961 9.4748 12.7228ZM8.16514 33.0832H24.7211V26.9164H10.7636C10.3949 26.9164 10.0601 27.0346 9.75917 27.2712C9.45828 27.5077 9.27479 27.7981 9.20869 28.1424L8.16514 33.0832ZM26.0256 9.88409C23.0862 9.88409 20.5956 8.92562 18.5537 7.00868C16.5118 5.09336 15.4909 2.75714 15.4909 0H18.0998C18.0998 2.0703 18.8685 3.82736 20.406 5.27119C21.9453 6.71339 23.8184 7.43448 26.0256 7.43448C28.2327 7.43448 30.1059 6.71339 31.6451 5.27119C33.1826 3.82736 33.9513 2.0703 33.9513 0H36.5602C36.5602 2.75714 35.5393 5.09336 33.4974 7.00868C31.4555 8.92399 28.9649 9.88246 26.0256 9.88409ZM24.7211 18.8701V14.683C24.7211 14.3339 24.8455 14.0426 25.0942 13.8093C25.3446 13.576 25.6551 13.4594 26.0256 13.4594C26.396 13.4594 26.7065 13.576 26.9569 13.8093C27.2056 14.0426 27.33 14.3339 27.33 14.683V18.8701C27.33 19.2192 27.2056 19.5104 26.9569 19.7437C26.7065 19.977 26.396 20.0937 26.0256 20.0937C25.6551 20.0937 25.3446 19.977 25.0942 19.7437C24.8455 19.5104 24.7211 19.2192 24.7211 18.8701ZM27.33 41.5553H43.7138C44.2182 41.5553 44.6286 41.3742 44.9452 41.012C45.2635 40.6531 45.3722 40.2371 45.2713 39.764L44.3791 35.5304H27.33V41.5553ZM27.33 33.0832H43.8364L42.7929 28.1399C42.725 27.7973 42.5407 27.5077 42.2398 27.2712C41.9389 27.0346 41.6049 26.9172 41.238 26.9188H27.33V33.0832ZM40.831 14.4554L37.6012 11.4258C37.3577 11.1974 37.2411 10.9192 37.2516 10.5913C37.2638 10.2634 37.3968 9.98035 37.6507 9.74216C37.8942 9.51376 38.1847 9.39956 38.5221 9.39956C38.8613 9.39956 39.1526 9.51376 39.3961 9.74216L42.6911 12.7253C42.9798 12.9537 43.1242 13.2318 43.1242 13.5597C43.1242 13.8877 42.9798 14.1862 42.6911 14.4554C42.4041 14.7262 42.0945 14.8616 41.7623 14.8616C41.4301 14.8616 41.1197 14.7262 40.831 14.4554ZM46.3957 2.49366H40.6249V0.0464962H46.3957C46.7662 0.0464962 47.0758 0.163144 47.3245 0.39644C47.5749 0.631368 47.7002 0.922581 47.7002 1.27008C47.7002 1.61758 47.5749 1.90879 47.3245 2.14372C47.074 2.37864 46.7644 2.49529 46.3957 2.49366ZM4.08485 39.2574L6.56329 27.6334C6.78069 26.7116 7.2703 25.9538 8.03209 25.36C8.79214 24.7677 9.68612 24.4716 10.714 24.4716H41.2875C42.3137 24.4716 43.2077 24.7677 43.9695 25.36C44.7313 25.9522 45.22 26.7108 45.4357 27.6358L47.9141 39.2598C48.1628 40.4948 47.8715 41.5936 47.0401 42.5562C46.2088 43.5187 45.1174 44 43.766 44H8.23297C6.88331 44 5.7928 43.5187 4.96143 42.5562C4.13007 41.5936 3.83787 40.494 4.08485 39.2574Z",
+                    fill: "#BC9043"
+                }, void 0, false, {
+                    fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                    lineNumber: 87,
+                    columnNumber: 1
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                lineNumber: 86,
+                columnNumber: 14
+            }, this),
             colored: false
         },
         {
             name: "Swimming Pools",
-            icon: '/pool.svg',
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                width: "48",
+                height: "48",
+                viewBox: "0 0 48 48",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
+                        "clip-path": "url(#clip0_1_859)",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                            d: "M1.49902 45.6275C3.63246 46.4872 5.96777 46.7168 8.22777 46.2889C10.4878 45.861 12.5775 44.7936 14.249 43.2135C16.4777 45.3234 19.43 46.4993 22.499 46.4993C25.568 46.4993 28.5204 45.3234 30.749 43.2135C32.8532 45.2053 35.607 46.3685 38.502 46.4883C41.3969 46.6082 44.2374 45.6766 46.499 43.8655M34.499 37.4995V7.49951C34.499 5.90821 35.1312 4.38209 36.2564 3.25687C37.3816 2.13165 38.9077 1.49951 40.499 1.49951C42.0903 1.49951 43.6165 2.13165 44.7417 3.25687C45.8669 4.38209 46.499 5.90821 46.499 7.49951M16.499 37.4995V7.49951C16.499 5.90821 17.1312 4.38209 18.2564 3.25687C19.3816 2.13165 20.9077 1.49951 22.499 1.49951C24.0903 1.49951 25.6164 2.13165 26.7417 3.25687C27.8669 4.38209 28.499 5.90821 28.499 7.49951M16.499 22.4995H34.499M16.499 31.4995H34.499M16.499 13.4995H34.499",
+                            stroke: "#9F0E52",
+                            "stroke-width": "2.5",
+                            "stroke-linecap": "round",
+                            "stroke-linejoin": "round"
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                            lineNumber: 96,
+                            columnNumber: 1
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                        lineNumber: 95,
+                        columnNumber: 1
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("clipPath", {
+                            id: "clip0_1_859",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                width: "48",
+                                height: "48",
+                                fill: "white"
+                            }, void 0, false, {
+                                fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                                lineNumber: 100,
+                                columnNumber: 1
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                            lineNumber: 99,
+                            columnNumber: 1
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                        lineNumber: 98,
+                        columnNumber: 1
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                lineNumber: 94,
+                columnNumber: 14
+            }, this),
             colored: false
         },
         {
@@ -2480,7 +2721,25 @@ function Amenities() {
         },
         {
             name: "Outdoor Courts",
-            icon: '/court.svg',
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                width: "48",
+                height: "48",
+                viewBox: "0 0 48 48",
+                fill: "none",
+                xmlns: "http://www.w3.org/2000/svg",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M11.3277 5.15625L8.21332 18.6562H9.94957L12.6777 6.84375H14.3839L12.4527 18.6562H14.1683L15.1152 12.8437H23.1589V18.6562H24.8464V12.8437H32.8902L33.8371 18.6562H35.5527L33.6214 6.84375H35.3277L38.0558 18.6562H39.7902L36.6777 5.15625H11.3277ZM16.0996 6.84375H31.9058L32.6183 11.1562H15.3871L16.0996 6.84375ZM6.84645 20.3437V23.1562H41.1589V20.3437H6.84645ZM6.78645 24.8437L1.94238 45.8437H46.0621L41.2152 24.8437H39.4808L43.9433 44.1562H39.7246L36.5652 24.8437H34.8496L36.1808 33H24.8464V24.8437H23.1589V33H11.8246L13.1558 24.8437H11.4402L8.28551 44.1562H4.06301L8.52176 24.8437H6.78645ZM11.5433 34.6875H36.4621L38.0089 44.1562H9.99644L11.5433 34.6875Z",
+                    fill: "#BC9043"
+                }, void 0, false, {
+                    fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                    lineNumber: 120,
+                    columnNumber: 1
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
+                lineNumber: 119,
+                columnNumber: 14
+            }, this),
             colored: false
         }
     ];
@@ -2499,7 +2758,7 @@ function Amenities() {
                             children: "Amenities & Facilities"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
-                            lineNumber: 93,
+                            lineNumber: 133,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2507,38 +2766,38 @@ function Amenities() {
                             children: "It offers its residents access to an exclusive array of recreational and sporting facilities that could rival any resort."
                         }, void 0, false, {
                             fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
-                            lineNumber: 96,
+                            lineNumber: 136,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
-                    lineNumber: 92,
+                    lineNumber: 132,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6",
                     children: amenities.map((amenity, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: `relative rounded-[4px]   border transition-all duration-300 hover:shadow-xl group cursor-pointer
-                ${amenity.colored ? "bg-primary text-white border-primary hover:bg-[#9a1751]" : "bg-white text-[#221628] border-primary hover:border-[#9a1751]"}
+                ${amenity.colored ? "bg-primary text-white border-primary" : "bg-white text-[#221628] border-primary hover:border-[#9a1751]"}
               `,
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex flex-col md:flex-row justify-between items-center h-full p-4 md:px-5 md:py-4 gap-2",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex md:hidden justify-end items-end w-full",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        children: typeof amenity.icon === 'string' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: amenity.icon,
                                             alt: amenity.name,
-                                            className: `w-10 h-10 md:w-12 md:h-12 object-contain ${amenity.colored ? 'filter brightness-0 invert' : ''}`
+                                            className: `w-10 h-10 md:w-12 md:h-12 stroke-primary object-contain ${amenity.colored ? 'filter brightness-0 invert' : ''}`
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
-                                            lineNumber: 114,
-                                            columnNumber: 19
-                                        }, this)
+                                            lineNumber: 154,
+                                            columnNumber: 55
+                                        }, this) : amenity.icon
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
-                                        lineNumber: 113,
+                                        lineNumber: 153,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2548,55 +2807,55 @@ function Amenities() {
                                             children: amenity.name
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
-                                            lineNumber: 124,
+                                            lineNumber: 164,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
-                                        lineNumber: 123,
+                                        lineNumber: 163,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "hidden md:flex justify-end items-end w-full md:w-auto",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        children: typeof amenity.icon === 'string' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: amenity.icon,
                                             alt: amenity.name,
-                                            className: `w-10 h-10 md:w-12 md:h-12 object-contain ${amenity.colored ? 'filter brightness-0 invert' : ''}`
+                                            className: `w-10 h-10 md:w-12 md:h-12 stroke-primary object-contain ${amenity.colored ? 'filter brightness-0 invert' : ''}`
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
-                                            lineNumber: 133,
-                                            columnNumber: 19
-                                        }, this)
+                                            lineNumber: 173,
+                                            columnNumber: 54
+                                        }, this) : amenity.icon
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
-                                        lineNumber: 132,
+                                        lineNumber: 172,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
-                                lineNumber: 112,
+                                lineNumber: 152,
                                 columnNumber: 15
                             }, this)
                         }, index, false, {
                             fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
-                            lineNumber: 103,
+                            lineNumber: 143,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
-                    lineNumber: 101,
+                    lineNumber: 141,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
-            lineNumber: 91,
+            lineNumber: 131,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Desktop/temp test/src/components/amenities.tsx",
-        lineNumber: 90,
+        lineNumber: 130,
         columnNumber: 5
     }, this);
 }
@@ -3062,7 +3321,7 @@ function MasterPlan() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    className: "bg-primary hover:bg-[#9a1751] hidden md:flex text-white px-6 md:px-8 py-3 rounded-[4px] font-semibold font-['Urbanist'] text-sm md:text-base transition-colors duration-300 shadow-md items-center gap-2 whitespace-nowrap cursor-pointer",
+                                    className: "bg-primary  hidden md:flex text-white px-6 md:px-8 py-3 rounded-[4px] font-semibold font-['Urbanist'] text-sm md:text-base transition-colors duration-300 shadow-md items-center gap-2 whitespace-nowrap cursor-pointer",
                                     onClick: ()=>setIsModalOpen(true),
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -3132,7 +3391,7 @@ function MasterPlan() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "bg-primary hover:bg-[#9a1751] md:hidden text-white mt-4.5 px-6 md:px-8 py-3 rounded-[4px] font-semibold font-['Urbanist'] text-sm md:text-base transition-colors duration-300 shadow-md flex flex-row items-center gap-2 whitespace-nowrap cursor-pointer",
+                            className: "bg-primary  md:hidden text-white mt-4.5 px-6 md:px-8 py-3 rounded-[4px] font-semibold font-['Urbanist'] text-sm md:text-base transition-colors duration-300 shadow-md flex flex-row items-center gap-2 whitespace-nowrap cursor-pointer",
                             onClick: ()=>setIsModalOpen(true),
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$temp__test$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {

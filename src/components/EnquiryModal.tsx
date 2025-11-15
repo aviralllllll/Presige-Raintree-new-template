@@ -279,7 +279,7 @@ export default function EnquiryModal({
               {/* Submit Button */}
               <button
                 type="submit"
-                className="w-full bg-primary hover:bg-[#9a1751] text-white py-3.5 px-5 rounded-[8px] font-bold text-base font-['Urbanist'] transition-colors duration-300 shadow-lg mt-9"
+                className="w-full bg-primary  text-white py-3.5 px-5 rounded-[8px] font-bold text-base font-['Urbanist'] transition-colors duration-300 shadow-lg mt-9"
                 disabled={loading}
               >
                 {loading ? "Submitting..." : "Enquire"}

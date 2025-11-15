@@ -1,5 +1,6 @@
-[00:00:02.751] Server  LOG      ✓ Ready in 2.5s
-[00:04:35.724] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+[00:00:01.317] Server  LOG      ✓ Ready in 1007ms
+[00:00:17.361] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.724] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -12,349 +13,763 @@ It can also happen if the client has a browser extension installed which messes 
 https://react.dev/link/hydration-mismatch
 
   ...
-    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
-      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
-        <RedirectBoundary>
-          <RedirectErrorBoundary router={{...}}>
-            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-              <SegmentViewNode type="page" pagePath="/Desktop/t...">
-                <SegmentTrieNode>
-                <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
-                  <Home params={Promise} searchParams={Promise}>
-                    <main className="w-full">
-                      <Navigation>
-                      <Hero>
-                      <QuickStats>
-                      <Introduction>
-                      <WhyChoose>
-                      <PricingPlots>
-                      <LocationMap>
-                      <Gallery>
-                      <Amenities>
-                        <section id="amenities" className="py-12 md:p...">
-                          <div className="max-w-7xl ...">
-                            <div>
-                            <div className="grid grid-...">
-                              <div>
-                              <div>
-                              <div
-+                               className={"relative rounded-[4px]   border transition-all duration-300 hover:shadow-..."}
--                               className={"relative rounded-[4px]   border transition-all duration-300 hover:shadow-..."}
-                              >
-                                <div className="flex flex-...">
-                                  <div className="flex md:hi...">
-                                    <img
-+                                     src="/solar.svg"
--                                     src="/24x7.svg"
-+                                     alt="Solar Street Lights"
--                                     alt="24 x 7 Security"
-+                                     className={"w-10 h-10 md:w-12 md:h-12 object-contain "}
--                                     className="w-10 h-10 md:w-12 md:h-12 object-contain filter brightness-0 invert"
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/t...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="inter_5972bc34-module__OU16Qa__className"
+-                           data-new-gr-c-s-check-loaded="14.1261.0"
+-                           data-gr-ext-installed=""
+                          >
+                            <noscript>
+                            <ToasterProvider>
+                            ...
+                              <section id="amenities" className="py-12 md:p...">
+                                <div className="max-w-7xl ...">
+                                  <div>
+                                  <div className="grid grid-...">
+                                    <div>
+                                    <div>
+                                    <div
++                                     className={"relative rounded-[4px]   border transition-all duration-300 hover:s..."}
+-                                     className={"relative rounded-[4px]   border transition-all duration-300 hover:s..."}
                                     >
-                                  <div className="w-full">
-                                    <h3
-+                                     className={"text-xl md:text-[28px] lg:text-[28pxl items-start font-bold font-['..."}
--                                     className={"text-xl md:text-[28px] lg:text-[28pxl items-start font-bold font-['..."}
+                                      <div className="flex flex-...">
+                                        <div className="flex md:hi...">
+                                          <img
++                                           src="/solar.svg"
+-                                           src="/24x7.svg"
++                                           alt="Solar Street Lights"
+-                                           alt="24 x 7 Security"
++                                           className={"w-10 h-10 md:w-12 md:h-12 object-contain "}
+-                                           className="w-10 h-10 md:w-12 md:h-12 object-contain filter brightness-0 in..."
+                                          >
+                                        <div className="w-full">
+                                          <h3
++                                           className={"text-xl md:text-[28px] lg:text-[28pxl items-start font-bold f..."}
+-                                           className={"text-xl md:text-[28px] lg:text-[28pxl items-start font-bold f..."}
+                                          >
++                                           Solar Street Lights
+-                                           24 x 7 Security
+                                        ...
+                                    ...
+                  ...
+
+[00:00:29.955] Server  LOG      ✓ Compiled in 356ms
+[00:04:17.230] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/t...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="inter_5972bc34-module__OU16Qa__className"
+-                           data-new-gr-c-s-check-loaded="14.1261.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:04:19.567] Server  LOG      ○ Compiling /_not-found/page ...
+[00:04:56.774] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/t...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="inter_5972bc34-module__OU16Qa__className"
+-                           data-new-gr-c-s-check-loaded="14.1261.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:05:57.639] Server  LOG      ✓ Compiled in 167ms
+[00:06:00.167] Server  LOG      ✓ Compiled in 71ms
+[00:06:33.453] Server  LOG      ✓ Compiled in 56ms
+[00:07:08.548] Server  LOG      ✓ Compiled in 49ms
+[00:07:12.879] Server  LOG      ✓ Compiled in 125ms
+[00:07:46.169] Server  LOG      ✓ Compiled in 42ms
+[00:07:55.975] Server  LOG      ✓ Compiled in 44ms
+[00:08:01.195] Server  LOG      ✓ Compiled in 50ms
+[00:09:32.100] Server  LOG      ✓ Compiled in 147ms
+[00:09:33.633] Server  LOG      ✓ Compiled in 130ms
+[00:09:47.298] Server  LOG      ✓ Compiled in 68ms
+[00:12:07.386] Server  LOG      ✓ Compiled in 176ms
+[00:12:17.079] Browser ERROR   ./Desktop/temp test/src/components/introduction.tsx:11:3
+Parsing ecmascript source code failed
+   9 |
+  10 |   const 
+> 11 |   return (
+     |   ^^^^^^
+  12 |     <>
+  13 |     <section className="py-12 md:py-20 bg-white">
+  14 |       <div className="max-w-7xl mx-auto px-4">
+
+Expected ident
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/introduction.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/introduction.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:12:23.871] Server  LOG      ✓ Compiled in 91ms
+[00:12:24.076] Browser ERROR   ./Desktop/temp test/src/components/introduction.tsx:10:22
+Parsing ecmascript source code failed
+   8 |   const [title, setTitle] = useState("Download Brochure");
+   9 |
+> 10 |   const cameraIcon = (
+     |                      ^
+> 11 |     
+     | ^^^^
+> 12 |   )
+     | ^^^^
+  13 |   return (
+  14 |     <>
+  15 |     <section className="py-12 md:py-20 bg-white">
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/introduction.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/introduction.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:12:25.349] Server  LOG      ✓ Compiled in 28ms
+[00:13:00.693] Server  LOG      ✓ Compiled in 49ms
+[00:13:04.303] Server  LOG      ✓ Compiled in 75ms
+[00:13:16.877] Server  LOG      ✓ Compiled in 38ms
+[00:13:18.748] Server  LOG      ✓ Compiled in 24ms
+[00:13:21.041] Server  LOG      ✓ Compiled in 43ms
+[00:13:29.199] Server  LOG      ✓ Compiled in 152ms
+[00:13:30.088] Browser ERROR   ./Desktop/temp test/src/components/introduction.tsx:74:15
+Parsing ecmascript source code failed
+  72 |                 <
+  73 |                 Virtual Tour
+> 74 |               </button>
+     |               ^
+  75 |             </div>
+  76 |
+  77 |             <div  className='border mb-8'/>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/introduction.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/introduction.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:13:30.090] Browser ERROR   ./Desktop/temp test/src/components/introduction.tsx:74:16
+Parsing ecmascript source code failed
+  72 |                 <
+  73 |                 Virtual Tour
+> 74 |               </button>
+     |                ^^^^^^^^
+  75 |             </div>
+  76 |
+  77 |             <div  className='border mb-8'/>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/introduction.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/introduction.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:13:32.077] Browser ERROR   ./Desktop/temp test/src/components/introduction.tsx:74:15
+Parsing ecmascript source code failed
+  72 |                 <cameraIcon
+  73 |                 Virtual Tour
+> 74 |               </button>
+     |               ^
+  75 |             </div>
+  76 |
+  77 |             <div  className='border mb-8'/>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/introduction.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/introduction.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:13:32.077] Browser ERROR   ./Desktop/temp test/src/components/introduction.tsx:74:16
+Parsing ecmascript source code failed
+  72 |                 <cameraIcon
+  73 |                 Virtual Tour
+> 74 |               </button>
+     |                ^^^^^^^^
+  75 |             </div>
+  76 |
+  77 |             <div  className='border mb-8'/>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/introduction.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/introduction.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:13:32.773] Server  LOG      ✓ Compiled in 38ms
+[00:13:33.088] Browser ERROR   <%s /> is using incorrect casing. Use PascalCase for React components, or lowercase for HTML elements. cameraIcon
+[00:13:33.088] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. cameraIcon
+[00:13:53.279] Server  LOG      ✓ Compiled in 84ms
+[00:13:54.077] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:13:54.077] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:13:54.077] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:14:40.954] Server  LOG      ✓ Compiled in 159ms
+[00:14:43.737] Server  LOG      ✓ Compiled in 21ms
+[00:14:45.070] Server  LOG      ✓ Compiled in 21ms
+[00:14:49.131] Server  LOG      ✓ Compiled in 327ms
+[00:14:54.488] Server  LOG      ✓ Compiled in 113ms
+[00:17:56.333] Server  LOG      ✓ Compiled in 392ms
+[00:17:57.082] Browser ERROR   ./Desktop/temp test/src/components/amenities.tsx:5:13
+Parsing ecmascript source code failed
+  3 |     { 
+  4 |       name: "Lush Greenery", 
+> 5 |       icon: ',
+    |             ^^
+  6 |       colored: false
+  7 |     },
+  8 |     { 
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:17:58.077] Browser ERROR   ./Desktop/temp test/src/components/amenities.tsx:5:14
+Parsing ecmascript source code failed
+  3 |     { 
+  4 |       name: "Lush Greenery", 
+> 5 |       icon: (',
+    |              ^^
+  6 |       colored: false
+  7 |     },
+  8 |     { 
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:17:59.085] Browser ERROR   ./Desktop/temp test/src/components/amenities.tsx:5:15
+Parsing ecmascript source code failed
+  3 |     { 
+  4 |       name: "Lush Greenery", 
+> 5 |       icon: ()',
+    |               ^^
+  6 |       colored: false
+  7 |     },
+  8 |     { 
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:18:11.077] Browser ERROR   ./Desktop/temp test/src/components/amenities.tsx:9:2
+Parsing ecmascript source code failed
+   7 | <path d="M20.1379 38.7835H38.8259L26.8122 21.4502H34.8213L20.1379 1.4502L5.45457 21.4502H13.4637L1.45001 38.7835H20.1379ZM20.1379 38.7835V49.4502" stroke="#B9105F" stroke-width="2.9" stroke-linecap="round" stroke-linejoin="round"/>
+   8 | </svg>
+>  9 | )',
+     |  ^^
+  10 |       colored: false
+  11 |     },
+  12 |     { 
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:18:14.937] Server  LOG      ✓ Compiled in 141ms
+[00:18:40.197] Server  LOG      ✓ Compiled in 87ms
+[00:19:43.787] Server  LOG      ✓ Compiled in 51ms
+[00:19:49.051] Server  LOG      ✓ Compiled in 272ms
+[00:19:50.093] Browser ERROR   ./Desktop/temp test/src/components/amenities.tsx:119:21
+Parsing ecmascript source code failed
+  117 |                 <div className="flex md:hidden justify-end items-end w-full">
+  118 |                   {am<img 
+> 119 |                     src={amenity.icon} 
+      |                     ^^^
+  120 |                     alt={amenity.name} 
+  121 |                     className={`w-10 h-10 md:w-12 md:h-12 stroke-primary object-contain ${
+  122 |                       amenity.colored ? 'filter brightness-0 invert' : ''
+
+Expected '</', got 'src'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:19:51.077] Browser ERROR   ./Desktop/temp test/src/components/amenities.tsx:119:21
+Parsing ecmascript source code failed
+  117 |                 <div className="flex md:hidden justify-end items-end w-full">
+  118 |                   {amenity<img 
+> 119 |                     src={amenity.icon} 
+      |                     ^^^
+  120 |                     alt={amenity.name} 
+  121 |                     className={`w-10 h-10 md:w-12 md:h-12 stroke-primary object-contain ${
+  122 |                       amenity.colored ? 'filter brightness-0 invert' : ''
+
+Expected '</', got 'src'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:19:54.075] Browser ERROR   ./Desktop/temp test/src/components/amenities.tsx:119:21
+Parsing ecmascript source code failed
+  117 |                 <div className="flex md:hidden justify-end items-end w-full">
+  118 |                   {amenity.colored <img 
+> 119 |                     src={amenity.icon} 
+      |                     ^^^
+  120 |                     alt={amenity.name} 
+  121 |                     className={`w-10 h-10 md:w-12 md:h-12 stroke-primary object-contain ${
+  122 |                       amenity.colored ? 'filter brightness-0 invert' : ''
+
+Expected '</', got 'src'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:19:55.039] Server  LOG      ✓ Compiled in 25ms
+[00:20:01.281] Server  LOG      ✓ Compiled in 114ms
+[00:20:02.075] Browser ERROR   ./Desktop/temp test/src/components/amenities.tsx:124:21
+Parsing ecmascript source code failed
+  122 |                       amenity.colored ? 'filter brightness-0 invert' : ''
+  123 |                     }`}
+> 124 |                   />}
+      |                     ^
+  125 |                 </div>
+  126 |                 {/* Title */}
+  127 |                 <div className="w-full">
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:20:05.077] Browser ERROR   ./Desktop/temp test/src/components/amenities.tsx:124:24
+Parsing ecmascript source code failed
+  122 |                       amenity.colored ? 'filter brightness-0 invert' : ''
+  123 |                     }`}
+> 124 |                   /> : }
+      |                        ^
+  125 |                 </div>
+  126 |                 {/* Title */}
+  127 |                 <div className="w-full">
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:20:08.077] Browser ERROR   uncaughtError: ReferenceError: am is not defined
+[00:20:10.196] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:20:10.215] Server  LOG      ✓ Compiled in 50ms
+[00:20:10.958] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+[00:20:10.959] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+[00:20:10.959] Server  ERROR   Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`?
+[00:20:18.154] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:20:18.154] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:20:18.155] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:20:19.078] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/t...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="inter_5972bc34-module__OU16Qa__className"
+-                           data-new-gr-c-s-check-loaded="14.1261.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:20:50.540] Server  LOG      ✓ Compiled in 195ms
+[00:20:51.090] Browser ERROR   ./Desktop/temp test/src/components/amenities.tsx:19:13
+Parsing ecmascript source code failed
+  17 |     { 
+  18 |       name: "Solar Street Lights", 
+> 19 |       icon: ,
+     |             ^
+  20 |       colored: false 
+  21 |     },
+  22 |     { 
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:20:51.870] Server  LOG      ✓ Compiled in 27ms
+[00:20:52.077] Browser ERROR   ./Desktop/temp test/src/components/amenities.tsx:19:13
+Parsing ecmascript source code failed
+  17 |     { 
+  18 |       name: "Solar Street Lights", 
+> 19 |       icon: (),
+     |             ^^
+  20 |       colored: false 
+  21 |     },
+  22 |     { 
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:20:52.962] Server  LOG      ✓ Compiled in 22ms
+[00:21:50.898] Server  LOG      ✓ Compiled in 276ms
+[00:21:52.517] Server  LOG      ✓ Compiled in 142ms
+[00:22:20.185] Server  LOG      ✓ Compiled in 51ms
+[00:22:21.658] Server  LOG      ✓ Compiled in 22ms
+[00:22:22.849] Server  LOG      ✓ Compiled in 25ms
+[00:22:31.502] Server  LOG      ✓ Compiled in 43ms
+[00:22:49.741] Server  LOG      ✓ Compiled in 75ms
+[00:23:02.536] Server  LOG      ✓ Compiled in 53ms
+[00:23:18.159] Server  LOG      ✓ Compiled in 64ms
+[00:23:29.007] Server  LOG      ✓ Compiled in 50ms
+[00:23:41.512] Server  LOG      ✓ Compiled in 42ms
+[00:24:16.767] Server  LOG      ✓ Compiled in 44ms
+[00:24:27.641] Browser ERROR   ./Desktop/temp test/src/components/amenities.tsx:37:13
+Parsing ecmascript source code failed
+  35 |     { 
+  36 |       name: "Swimming Pools", 
+> 37 |       icon: ,
+     |             ^
+  38 |       colored: false 
+  39 |     },
+  40 |     { 
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:24:27.641] Browser ERROR   ./Desktop/temp test/src/components/amenities.tsx:57:13
+Parsing ecmascript source code failed
+  55 |     { 
+  56 |       name: "Outdoor Courts", 
+> 57 |       icon: ,
+     |             ^
+  58 |       colored: false 
+  59 |     },
+  60 |   ]
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:24:27.641] Browser ERROR   ./Desktop/temp test/src/components/amenities.tsx:57:13
+Parsing ecmascript source code failed
+  55 |     { 
+  56 |       name: "Outdoor Courts", 
+> 57 |       icon: (),
+     |             ^^
+  58 |       colored: false 
+  59 |     },
+  60 |   ]
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/temp test/src/components/amenities.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
+    ./Desktop/temp test/src/app/page.tsx [Server Component]
+[00:24:27.641] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:24:47.730] Server  ERROR   Invalid DOM property `clip-path`. Did you mean `clipPath`?
+[00:24:48.843] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:49.300] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:24:49.300] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:24:49.300] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linejoin strokeLinejoin
+[00:24:49.505] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:24:49.505] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/t...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <head>
+                          <body
+                            className="inter_5972bc34-module__OU16Qa__className"
+-                           data-new-gr-c-s-check-loaded="14.1261.0"
+-                           data-gr-ext-installed=""
+                          >
+                            <noscript>
+                            <ToasterProvider>
+                            ...
+                              <section id="amenities" className="py-12 md:p...">
+                                <div className="max-w-7xl ...">
+                                  <div>
+                                  <div className="grid grid-...">
+                                    <div>
+                                    <div>
+                                    <div
++                                     className={"relative rounded-[4px]   border transition-all duration-300 hover:s..."}
+-                                     className={"relative rounded-[4px]   border transition-all duration-300 hover:s..."}
                                     >
-+                                     Solar Street Lights
--                                     24 x 7 Security
-                                  ...
-                              ...
-                      ...
-              ...
-            ...
+                                      <div className="flex flex-...">
+                                        <div className="flex md:hi...">
++                                         <svg
++                                           width="48"
++                                           height="48"
++                                           viewBox="0 0 48 48"
++                                           fill="none"
++                                           xmlns="http://www.w3.org/2000/svg"
++                                         >
+-                                         <img
+-                                           src="/24x7.svg"
+-                                           alt="24 x 7 Security"
+-                                           className="w-10 h-10 md:w-12 md:h-12 stroke-primary object-contain filter ..."
+-                                         >
+                                        ...
+                                    ...
+                  ...
 
-[00:05:17.534] Server  LOG      ✓ Compiled in 116ms
-[00:05:45.317] Server  LOG      ✓ Compiled in 364ms
-[00:06:10.932] Server  LOG      ✓ Compiled in 53ms
-[00:06:16.086] Server  LOG      ✓ Compiled in 58ms
-[00:06:20.569] Server  LOG      ✓ Compiled in 43ms
-[00:06:23.033] Server  LOG      ✓ Compiled in 206ms
-[00:06:26.986] Server  LOG      ✓ Compiled in 46ms
-[00:06:30.390] Server  LOG      ✓ Compiled in 76ms
-[00:08:03.862] Server  LOG      ✓ Compiled in 138ms
-[00:08:21.387] Server  LOG      ✓ Compiled in 126ms
-[00:08:35.487] Server  LOG      ✓ Compiled in 38ms
-[00:08:59.925] Server  LOG      ✓ Compiled in 187ms
-[00:09:23.431] Server  LOG      ✓ Compiled in 34ms
-[00:09:27.773] Server  LOG      ✓ Compiled in 27ms
-[00:10:26.988] Server  LOG      ✓ Compiled in 42ms
-[00:10:28.680] Server  LOG      ✓ Compiled in 19ms
-[00:10:30.725] Server  LOG      ✓ Compiled in 37ms
-[00:10:57.932] Server  LOG      ✓ Compiled in 169ms
-[00:11:03.149] Server  LOG      ✓ Compiled in 57ms
-[00:11:14.041] Server  LOG      ✓ Compiled in 43ms
-[00:11:20.565] Server  LOG      ✓ Compiled in 32ms
-[00:11:27.611] Server  LOG      ✓ Compiled in 59ms
-[00:11:34.070] Server  LOG      ✓ Compiled in 36ms
-[00:12:11.190] Server  LOG      ✓ Compiled in 52ms
-[00:14:00.859] Server  LOG      ✓ Compiled in 170ms
-[00:14:34.398] Server  LOG      ✓ Compiled in 53ms
-[00:14:44.543] Server  LOG      ✓ Compiled in 49ms
-[00:14:48.222] Server  LOG      ✓ Compiled in 33ms
-[00:14:55.905] Server  LOG      ✓ Compiled in 152ms
-[00:15:35.498] Server  LOG      ✓ Compiled in 35ms
-[00:15:36.634] Server  LOG      ✓ Compiled in 19ms
-[00:15:38.466] Server  LOG      ✓ Compiled in 23ms
-[00:15:40.184] Server  LOG      ✓ Compiled in 34ms
-[00:15:41.228] Server  LOG      ✓ Compiled in 25ms
-[00:15:44.204] Server  LOG      ✓ Compiled in 80ms
-[00:17:27.304] Server  LOG      ✓ Compiled in 349ms
-[00:17:29.235] Server  LOG      ✓ Compiled in 336ms
-[00:17:32.868] Server  LOG      ✓ Compiled in 152ms
-[00:17:43.748] Server  LOG      ✓ Compiled in 44ms
-[00:17:50.514] Server  LOG      ✓ Compiled in 36ms
-[00:17:53.061] Server  LOG      ✓ Compiled in 131ms
-[00:17:57.285] Server  LOG      ✓ Compiled in 53ms
-[00:18:01.440] Server  LOG      ✓ Compiled in 81ms
-[00:18:29.031] Server  LOG      ✓ Compiled in 435ms
-[00:18:45.847] Server  LOG      ✓ Compiled in 60ms
-[00:18:57.844] Server  LOG      ✓ Compiled in 104ms
-[00:19:48.551] Server  LOG      ✓ Compiled in 79ms
-[00:20:34.142] Server  LOG      ✓ Compiled in 51ms
-[00:20:57.790] Server  LOG      ✓ Compiled in 68ms
-[00:21:07.111] Server  LOG      ✓ Compiled in 45ms
-[00:21:10.402] Server  LOG      ✓ Compiled in 42ms
-[00:21:19.561] Server  LOG      ✓ Compiled in 44ms
-[00:21:24.487] Server  LOG      ✓ Compiled in 50ms
-[00:21:25.667] Server  LOG      ✓ Compiled in 20ms
-[00:21:28.021] Server  LOG      ✓ Compiled in 55ms
-[00:21:56.612] Server  LOG      ✓ Compiled in 46ms
-[00:21:57.853] Server  LOG      ✓ Compiled in 19ms
-[00:22:01.324] Server  LOG      ✓ Compiled in 20ms
-[00:22:03.270] Server  LOG      ✓ Compiled in 26ms
-[00:22:10.323] Server  LOG      ✓ Compiled in 45ms
-[00:22:12.757] Server  LOG      ✓ Compiled in 32ms
-[00:24:10.311] Server  LOG      ✓ Compiled in 82ms
-[00:25:25.587] Server  LOG      ✓ Compiled in 67ms
-[00:26:05.763] Server  LOG      ✓ Compiled in 63ms
-[00:26:35.025] Server  LOG      ✓ Compiled in 49ms
-[00:27:18.203] Server  LOG      ✓ Compiled in 197ms
-[00:27:18.661] Browser ERROR   ./Desktop/temp test/src/components/faqs.tsx:17:9
-Parsing ecmascript source code failed
-  15 |       question: "What is the location of the project?",
-  16 |       answer:
-> 17 |         "The township is strategically connected to Whitefield, Brookfield, Outer Ring Road, Sarjapur Road, and more, with easy access to Hope Farm Junction Metro, Manipal Hospital, and NEXUS Mall.},
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  18 |     {
-  19 |       question: "When does the pre booking start for the project?",
-  20 |       answer:
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-[00:27:28.678] Browser ERROR   ./Desktop/temp test/src/components/faqs.tsx:17:9
-Parsing ecmascript source code failed
-  15 |       question: "What is the location of the project?",
-  16 |       answer:
-> 17 |         "The township is strategically connected to Whitefield, Brookfield, Outer Ring Road, Sarjapur Road, and more, with easy access to Hope Farm Junction Metro, Manipal Hospital, and NEXUS Mall.},
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  18 |     {
-  19 |       question: "When does the pre booking start for the project?",
-  20 |       answer:
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-[00:27:31.660] Browser ERROR   ./Desktop/temp test/src/components/faqs.tsx:17:9
-Parsing ecmascript source code failed
-  15 |       question: "What is the location of the project?",
-  16 |       answer:
-> 17 |         "The township is strategically connected to Whitefield, Brookfield, Outer Ring Road, Sarjapur Road, and more, with easy access to Hope Farm Junction Metro, Manipal Hospital, and NEXUS Mall.},
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  18 |     {
-  19 |       question: "When does the pre booking start for the project?",
-  20 |       answer:
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-[00:27:36.664] Browser ERROR   ./Desktop/temp test/src/components/faqs.tsx:17:9
-Parsing ecmascript source code failed
-  15 |       question: "What is the location of the project?",
-  16 |       answer:
-> 17 |         "The township is strategically connected to Whitefield, Brookfield, Outer Ring Road, Sarjapur Road, and more, with easy access to Hope Farm Junction Metro, Manipal Hospital, and NEXUS Mall.},
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  18 |     {
-  19 |       question: "When does the pre booking start for the project?",
-  20 |       answer:
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-[00:27:45.211] Server  LOG      ✓ Compiled in 48ms
-[00:27:51.510] Server  LOG      ✓ Compiled in 69ms
-[00:27:51.612] Browser ERROR   ./Desktop/temp test/src/components/faqs.tsx:22:9
-Parsing ecmascript source code failed
-  20 |       question: "When does the pre booking start for the project?",
-  21 |       answer:
-> 22 |         "Pre-bookings for the project are scheduled to begin from the month of November,2025. Interested buyers can register their interest in advance to secure priority access
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  23 |  },
-  24 |     {
-  25 |       question: "What amenities and features will be available in the project?",
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-[00:28:15.025] Server  LOG      ✓ Compiled in 47ms
-[00:28:15.661] Browser ERROR   ./Desktop/temp test/src/components/faqs.tsx:17:9
-Parsing ecmascript source code failed
-  15 |       question: "What is the location of the project?",
-  16 |       answer:
-> 17 |         "The township is strategically connected to Whitefield, Brookfield, Outer Ring Road, Sarjapur Road, and more, with easy access to Hope Farm Junction Metro, Manipal Hospital, and NEXUS Mall.},
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  18 |     {
-  19 |       question: "When does the pre booking start for the project?",
-  20 |       answer:
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-[00:28:28.893] Server  LOG      ✓ Compiled in 83ms
-[00:28:29.659] Browser ERROR   ./Desktop/temp test/src/components/faqs.tsx:17:9
-Parsing ecmascript source code failed
-  15 |       question: "What is the location of the project?",
-  16 |       answer:
-> 17 |         "The township is strategically connected to Whitefield, Brookfield, Outer Ring Road, Sarjapur Road, and more, with easy access to Hope Farm Junction Metro, Manipal Hospital, and NEXUS Mall.},
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  18 |     {
-  19 |       question: "When does the pre booking start for the project?",
-  20 |       answer:
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-[00:29:01.972] Server  LOG      ✓ Compiled in 65ms
-[00:29:02.661] Browser ERROR   ./Desktop/temp test/src/components/faqs.tsx:17:9
-Parsing ecmascript source code failed
-  15 |       question: "What is the location of the project?",
-  16 |       answer:
-> 17 |         "The township is strategically connected to Whitefield, Brookfield, Outer Ring Road, Sarjapur Road, and more, with easy access to Hope Farm Junction Metro, Manipal Hospital, and NEXUS Mall. },
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  18 |     {
-  19 |       question: "When does the pre booking start for the project?",
-  20 |       answer:
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-[00:29:17.681] Browser ERROR   ./Desktop/temp test/src/components/faqs.tsx:17:9
-Parsing ecmascript source code failed
-  15 |       question: "What is the location of the project?",
-  16 |       answer:
-> 17 |         "The township is strategically connected to Whitefield, Brookfield, Outer Ring Road, Sarjapur Road, and more, with easy access to Hope Farm Junction Metro, Manipal Hospital, and NEXUS Mall. 
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  18 |         },
-  19 |     {
-  20 |       question: "When does the pre booking start for the project?",
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-[00:29:42.660] Browser ERROR   ./Desktop/temp test/src/components/faqs.tsx:17:9
-Parsing ecmascript source code failed
-  15 |       question: "What is the location of the project?",
-  16 |       answer:
-> 17 |         "The township is strategically connected to Whitefield, Brookfield, Outer Ring Road, Sarjapur Road, and more, with easy access to Hope Farm Junction Metro, Manipal Hospital, and NEXUS Mall.
-     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  18 |         },
-  19 |     {
-  20 |       question: "When does the pre booking start for the project?",
-
-Unterminated string constant
-
-Import traces:
-  Client Component Browser:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Client Component Browser]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./Desktop/temp test/src/components/faqs.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Client Component SSR]
-    ./Desktop/temp test/src/app/page.tsx [Server Component]
-[00:40:49.783] Server  LOG      ✓ Compiled in 400ms
-[00:40:54.008] Server  LOG      ✓ Compiled in 40ms
-[00:40:58.224] Server  LOG      ✓ Compiled in 39ms
+[00:25:22.298] Server  LOG      ✓ Compiled in 120ms
+[00:26:12.500] Server  LOG      ✓ Compiled in 158ms
+[00:27:26.254] Server  LOG      ✓ Compiled in 107ms
+[00:27:54.615] Server  LOG      ✓ Compiled in 62ms
+[00:28:02.004] Server  LOG      ✓ Compiled in 59ms
+[00:28:10.359] Server  LOG      ✓ Compiled in 49ms
