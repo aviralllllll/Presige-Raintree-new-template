@@ -42,7 +42,7 @@ export default function Introduction() {
           {/* Content */}
           <div>
             <h2 className="text-3xl md:text-4xl lg:text-[44px] font-extrabold mb-6 text-[#221628] font-['Urbanist']">
-              Launching Soon - Prestige Raintree Phase 2
+              Prestige Raintree Phase 2
             </h2>
             
             <p className="text-[#575556] mb-4 leading-relaxed text-sm md:text-md font-['Urbanist']">
